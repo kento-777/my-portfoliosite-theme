@@ -5,6 +5,9 @@
 <main>
 <?php if(have_posts()): ?>
 <?php while(have_posts()):the_post(); ?>
+  <div class="active-img--pc">
+   <?php if(has_post_thumbnail()) : ?><?php the_post_thumbnail(); ?><?php endif; ?>
+  </div>
   <div class="works-active">
     <div class="active-item">
     <?php if(has_post_thumbnail()) : ?>

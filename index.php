@@ -17,8 +17,8 @@
         <div class="about-img">
           <img src="<?php echo get_template_directory_uri(); ?>/images/my-img.jpg" alt="my-img" />
         </div>
-        <a href="/index.php?page_id=16">
-          <div class="page-jump-button">WHO IS HE?</div>
+        <a class="page-jump-button" href="/index.php?page_id=16">
+          WHO IS HE?
         </a>
       </section>
       <section class="top-works">
@@ -27,8 +27,8 @@
           <li><img src="<?php echo get_template_directory_uri(); ?>/images/clenzy-logo.png" alt="" /></li>
           <li><img src="<?php echo get_template_directory_uri(); ?>/images/tomoaki-logo.png" alt="" /></li>
         </div>
-        <a href="/index.php?page_id=18">
-          <div class="page-jump-button">VIEW ALL</div>
+        <a class="page-jump-button" href="/index.php?page_id=18">
+          VIEW ALL
         </a>
       </section>
       <section class="top-skills">
@@ -75,8 +75,8 @@
             </div>
           </li>
         </div>
-        <a href="/index.php?page_id=20">
-          <div class="page-jump-button">VIEW ALL</div>
+        <a class="page-jump-button" href="/index.php?page_id=20">
+          VIEW ALL
         </a>
       </section>
       <div class="scroll-icon">
