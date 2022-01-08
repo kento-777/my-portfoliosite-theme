@@ -258,15 +258,15 @@ header {
   border: 1px solid #000;
   border-radius: 25px;
   text-align: center;
-  -webkit-transition: all .3s ease-out;
-  transition: all .3s ease-out;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
 }
 
 .page-jump-button:hover {
   background-color: #000;
   color: #fff;
-  -webkit-transition: all .3s ease-out;
-  transition: all .3s ease-out;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
 }
 
 .top-works {
