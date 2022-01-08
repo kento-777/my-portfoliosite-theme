@@ -1,0 +1,27 @@
+.active-img--pc {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    max-width: 60%;
+    height: 100vh;
+    img {
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+  }
+.works-active {
+  position: relative;
+  z-index: 3;
+  .active-item {
+    .active-description {
+      .description-contents {
+        overflow-wrap: break-word;
+      }
+    }
+  }
+}
+
+  

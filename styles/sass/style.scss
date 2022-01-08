@@ -1,0 +1,20 @@
+//全体の設定
+@import "./base/base";
+//header
+@import "./base/header";
+//ハンバーガーメニュー
+@import "./base/hamburger";
+//top
+@import "./pages/top";
+//about
+@import "./pages/about";
+//works
+@import "./pages/works";
+//works-active
+@import "./pages/works-active";
+//skills
+@import "./pages/skills";
+//animation
+@import "./base/animation";
+//pcのresponsive
+@import "./responsive/responsive-pc";

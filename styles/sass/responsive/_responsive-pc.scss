@@ -1,0 +1,129 @@
+@media screen and (min-width: 768px) {
+  .header {
+    &-sp {
+      display: none;
+    }
+    &-pc {
+      display: flex;
+      padding-bottom: 30px;
+    }
+    &-logo {
+      margin-right: 8em;
+    }
+    &-menu {
+      display: flex;
+      li {
+        margin-right: 4em;
+      }
+    }
+  }
+  .page-jump-button {
+    width: 20%;
+  }
+  //top-works
+  .top-works {
+    .works-title {
+      font-size: 32px;
+    }
+    .works-items {
+      margin: 0 5em 10em 5em;
+      li {
+        width: 20%;
+      }
+    }
+  }
+  //top-skills
+  .top-skills {
+    .skills-title {
+      font-size: 32px;
+    }
+    .skills-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 10em;
+      li {
+        width: 40%;
+        margin: 20px;
+      }
+      li:last-of-type {
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+//about
+  .about {
+    padding-top: 5em;
+    display: flex;
+    .about-img {
+      width: 50%;
+      padding-top: 0px;
+      img {
+        width: 100%;
+        border-radius: 0px;
+      }
+    }
+    .about-description {
+      padding-left: 3em;
+    }
+  }
+  .sns-icons {
+    display: none;
+    &--pc {
+      margin-top: 2em;
+      display: flex;
+      gap: 0 2em;
+    }
+  }
+  //skills
+  .skills {
+    .back-icon {
+      right: 0;
+    }
+    .skills-title {
+      font-size: 32px;
+    }
+    .skills-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        width: 40%;
+        margin: 3em;
+        h2 {
+          font-size: 2em;
+        }
+        p {
+          font-size: 1em;
+        }
+      }
+    }
+  }
+  //works
+  .works {
+    .works-title {
+      font-size: 32px;
+    }
+    .works-items {
+      margin: 0 5em 10em 5em;
+      li {
+        width: 20%;
+      }
+    }
+  }
+  //works-active
+  .works-active {
+    position: absolute;
+    top: 10%;
+    left: 62%;
+    overflow-wrap: break-word;
+    .active-img {
+      display: none;
+    }
+  }
+  .active-img--pc {
+    display: block;
+  }
+}

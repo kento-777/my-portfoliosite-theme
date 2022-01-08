@@ -1,0 +1,55 @@
+.skills-title {
+  text-align: center;
+  h1 {
+    font-family: Oswald;
+  }
+}
+.skills-items {
+  li {
+    margin-bottom: 2.4em;
+    display: flex;
+    align-items: flex-start;
+    .skills-img {
+      width: 25%;
+      max-height: 100%;
+    }
+  }
+}
+.skills-contents {
+  margin-left: 0.6em;
+  h2 {
+    font-size: 1.1em;
+    margin: 0 0 0.2em 0;
+  }
+  p {
+    margin: 0;
+    font-size: 0.6em;
+  }
+}
+.skills {
+  .back-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: -2em;
+    transform: rotate(90deg);
+    .icon- {
+      &title {
+        width: 60px;
+        font-size: 10px;
+        &:after {
+          content: "";
+          position: absolute;
+          top: 1.5em;
+          width: 100px;
+          height: 1px;
+          background: #000;
+          transform: rotate(180deg);
+          animation: backAnimation 1.4s ease-in-out infinite;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  min-height: 100%;
+  scroll-behavior: smooth; 
+}
+
+body {
+  display: none;
+  min-height: 100%;
+  margin: 0;
+  font-family: roboto;
+}
+main {
+  padding: 0 30px;
+}
+footer {
+  padding: 0 30px 35px 30px;
+}

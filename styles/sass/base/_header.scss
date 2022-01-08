@@ -1,0 +1,32 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.header-sp {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 30px;
+}
+.header-pc {
+  display: none;
+  padding: 35px 30px;
+}
+.header-logo {
+  z-index: 5;
+  &--a {
+    color: #000;
+  }
+}
+.header-sns {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 7em;
+  .twitter {
+    margin-bottom: 1.5em;
+  }
+  .instagram {
+    margin-bottom: 1.5em;
+  }
+}
