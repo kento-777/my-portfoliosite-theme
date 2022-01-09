@@ -16,6 +16,14 @@
   position: relative;
   z-index: 3;
   .active-item {
+    .active-img {
+      text-align: center;
+      overflow: hidden;
+      img {
+        margin: 0 -400px;
+        width: auto;
+      }
+    }
     .active-description {
       .description-contents {
         overflow-wrap: break-word;

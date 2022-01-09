@@ -11,7 +11,7 @@
   <div class="works-active">
     <div class="active-item">
     <?php if(has_post_thumbnail()) : ?>
-      <div class="active-img"><?php the_post_thumbnail(); ?></div>
+    <div class="active-img"><?php the_post_thumbnail(); ?></div>
     <?php endif; ?>
       <div class="active-description">
         <h2 class="description-title"><?php the_title(); ?></h2>

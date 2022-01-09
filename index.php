@@ -17,17 +17,17 @@
         <div class="about-img">
           <img src="<?php echo get_template_directory_uri(); ?>/images/my-img.jpg" alt="my-img" />
         </div>
-        <a class="page-jump-button" href="/index.php?page_id=16">
+        <a class="page-jump-button" href="/index.php?page_id=6">
           WHO IS HE?
         </a>
       </section>
       <section class="top-works">
         <div class="works-title"><h1>WORKS</h1></div>
         <div class="works-items">
-          <li><img src="<?php echo get_template_directory_uri(); ?>/images/clenzy-logo.png" alt="" /></li>
-          <li><img src="<?php echo get_template_directory_uri(); ?>/images/tomoaki-logo.png" alt="" /></li>
+			<li><a href="/index.php?p=12"><img src="http://kento-tsuchida.net/wp-content/uploads/2022/01/clenzy-logo.png" alt="" /></a></li>
+			<li><a href="/index.php?p=14"><img src="http://kento-tsuchida.net/wp-content/uploads/2022/01/tomoaki-sato-logo.png" alt="" /></a></li>
         </div>
-        <a class="page-jump-button" href="/index.php?page_id=18">
+        <a class="page-jump-button" href="/index.php?page_id=8">
           VIEW ALL
         </a>
       </section>
@@ -75,7 +75,7 @@
             </div>
           </li>
         </div>
-        <a class="page-jump-button" href="/index.php?page_id=20">
+        <a class="page-jump-button" href="/index.php?page_id=10">
           VIEW ALL
         </a>
       </section>

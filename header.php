@@ -30,9 +30,9 @@
           </div>
           <div class="active-page">
             <div class="page-menu">
-              <li><a href="/index.php?page_id=16">ABOUT</a></li>
-              <li><a href="/index.php?page_id=18">WORKS</a></li>
-              <li><a href="/index.php?page_id=20">SKILLS</a></li>
+              <li><a href="/index.php?page_id=6">ABOUT</a></li>
+              <li><a href="/index.php?page_id=8">WORKS</a></li>
+              <li><a href="/index.php?page_id=10">SKILLS</a></li>
             </div>
             <div class="page-sns">
               <a class="twitter--top" href="https://twitter.com/tsuchiken_777" target="_blank" rel="noopener noreferrer">
@@ -50,10 +50,10 @@
       </div>
       <div class="header-pc">
         <div class="header-logo">
-          <a class="header-logo--a" href="index.html">Kento Tsuchida</a>
+          <a class="header-logo--a" href="<?php echo home_url( '/' );?>">Kento Tsuchida</a>
         </div>
         <div class="header-menu">
-         <li><a href="/index.php?page_id=16">ABOUT</a></li>
-         <li><a href="/index.php?page_id=18">WORKS</a></li>
-         <li><a href="/index.php?page_id=20">SKILLS</a></li>
+         <li><a href="/index.php?page_id=6">ABOUT</a></li>
+         <li><a href="/index.php?page_id=8">WORKS</a></li>
+         <li><a href="/index.php?page_id=10">SKILLS</a></li>
         </div>

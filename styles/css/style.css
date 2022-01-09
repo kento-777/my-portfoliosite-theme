@@ -16,7 +16,7 @@ body {
   display: none;
   min-height: 100%;
   margin: 0;
-  font-family: roboto;
+  font-family: "Roboto", "Arial","AlNile", sans-serif;
 }
 
 main {
@@ -141,6 +141,7 @@ header {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   margin-top: 180px;
+  text-align: center;
 }
 
 .active-page .page-menu li {
@@ -390,6 +391,16 @@ header {
 .works-active {
   position: relative;
   z-index: 3;
+}
+
+.works-active .active-item .active-img {
+  text-align: center;
+  overflow: hidden;
+}
+
+.works-active .active-item .active-img img {
+  margin: 0 -400px;
+  width: auto;
 }
 
 .works-active .active-item .active-description .description-contents {
