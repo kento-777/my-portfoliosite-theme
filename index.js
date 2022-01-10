@@ -1,4 +1,4 @@
-jQuery(function ($) {
+$(function () {
   $("body").fadeIn(1000);
   $(".hamburger-menu").click(function () {
     $(".active-page, .header-logo--a, .hamburger-logo").toggleClass(
@@ -30,13 +30,6 @@ jQuery(function ($) {
     }
   }
   getElTop();
-
-  window.addEventListener("resize", function () {
-    elRect = [];
-    elTop = [];
-    getElTop();
-    window.scrollTo(0, elTop[count]);
-  });
 
   wrap.addEventListener("wheel", function (e) {
     e.preventDefault();

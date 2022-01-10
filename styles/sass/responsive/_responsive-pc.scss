@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .header {
     &-sp {
       display: none;
@@ -125,5 +125,32 @@
   }
   .active-img--pc {
     display: block;
+  }
+}
+
+//タブレット
+@media screen and (min-width: 765px) {
+  .top-skills {
+    .skills-title {
+      font-size: 32px;
+    }
+    .skills-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 10em;
+      li {
+        width: 40%;
+        margin: 20px;
+        .skills-contents {
+          h2 {
+           font-size: 1.5em;
+          }
+          p {
+            font-size: .5em;
+          }
+        }
+      }
+    }
   }
 }
