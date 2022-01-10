@@ -785,29 +785,23 @@ header {
 }
 
 @media screen and (min-width: 765px) {
-  .top-skills .skills-title {
-    font-size: 32px;
-  }
-  .top-skills .skills-items {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 10em;
-  }
-  .top-skills .skills-items li {
-    width: 40%;
-    margin: 20px;
-  }
   .top-skills .skills-items li .skills-contents h2 {
     font-size: 1.5em;
   }
   .top-skills .skills-items li .skills-contents p {
     font-size: .5em;
+  }
+  .skills .skills-items li img {
+    width: 20%;
+  }
+  .skills .skills-items li .skills-contents {
+    margin-left: 3em;
+  }
+  .skills .skills-items li .skills-contents h2 {
+    font-size: 1.5em;
+  }
+  .skills .skills-items li .skills-contents p {
+    font-size: .8em;
   }
 }
 /*# sourceMappingURL=style.css.map */

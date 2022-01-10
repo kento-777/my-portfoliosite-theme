@@ -131,23 +131,32 @@
 //タブレット
 @media screen and (min-width: 765px) {
   .top-skills {
-    .skills-title {
-      font-size: 32px;
-    }
     .skills-items {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-bottom: 10em;
       li {
-        width: 40%;
-        margin: 20px;
         .skills-contents {
           h2 {
            font-size: 1.5em;
           }
           p {
             font-size: .5em;
+          }
+        }
+      }
+    }
+  }
+  .skills {
+    .skills-items {
+      li {
+        img {
+          width: 20%;
+        }
+        .skills-contents {
+          margin-left: 3em;
+          h2 {
+           font-size: 1.5em;
+          }
+          p {
+            font-size: .8em;
           }
         }
       }
